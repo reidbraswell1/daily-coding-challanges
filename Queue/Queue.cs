@@ -1,9 +1,9 @@
 using System;
-using System.Collections;
+using System.Collections.Generic;
 public static class Queue<T>
 {
-    private static Stack enQueue = new Stack();
-    private static Stack deQueue = new Stack();
+    private static Stack<T> enQueue = new Stack<T>();
+    private static Stack<T> deQueue = new Stack<T>();
     public static void EnQueue(T t)
     {
         /* 
