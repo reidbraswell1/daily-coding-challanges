@@ -17,9 +17,9 @@ namespace daily_coding_challanges
             Queue<int>.EnQueue(6);
             Queue<int>.EnQueue(7);
             Console.WriteLine(Queue<int>.DeQueue());
-            
+
             Queue<int>.ClearStacks();
-            
+
             Queue<int>.EnQueue2(1);
             Queue<int>.EnQueue2(2);
             Queue<int>.EnQueue2(3);
