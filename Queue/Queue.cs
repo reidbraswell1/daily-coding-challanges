@@ -27,7 +27,7 @@ public static class Queue<T>
             1) If stack1 is empty then error
             2) Pop an item from stack1 and return it
         */
-        if(enQueue.Count == 0)
+        if (enQueue.Count == 0)
         {
             throw new Exception();
         }
@@ -48,13 +48,13 @@ public static class Queue<T>
                While stack1 is not empty, push everything from stack1 to stack2.
             3) Pop the element from stack2 and return it.
         */
-        if(enQueue.Count == 0 && deQueue.Count == 0)
+        if (enQueue.Count == 0 && deQueue.Count == 0)
         {
             throw new Exception();
         }
-        if(deQueue.Count == 0)
+        if (deQueue.Count == 0)
         {
-            while(enQueue.Count > 0)
+            while (enQueue.Count > 0)
             {
                 deQueue.Push(enQueue.Pop());
             }
