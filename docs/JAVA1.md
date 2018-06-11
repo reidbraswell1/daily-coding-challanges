@@ -1,4 +1,4 @@
-    ```java
+ ```java
     public static boolean arraySumsToK(int[] list, int k)
     {
         for(int i=0; i < list.length - 1; i++) {
@@ -11,4 +11,4 @@
         }
         return false;
     }
-```
+ ```
